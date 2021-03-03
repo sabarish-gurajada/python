@@ -1,0 +1,12 @@
+    rankid INTEGER,
+    domain STRING,
+    idndomain STRING,
+    idntld STRING,
+    prevrank INTEGER,
+    prevrefips INTEGER,
+    prevrefsubnets INTEGER,
+    prevtldrank INTEGER,
+    refips INTEGER,
+    refsubnets INTEGER,
+    tld STRING,
+    tldrank INTEGER
