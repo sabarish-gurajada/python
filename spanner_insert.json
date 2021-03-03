@@ -1,0 +1,40 @@
+{
+  "tables": [
+    {
+      "table_name": "ImportTest",
+      "file_patterns": [
+        "gs://sabarishnewbucket3/testdata.csv"
+      ],
+      "columns": [
+        {
+          "column_name": "importid",
+          "type_name": "INT64"
+        },
+        {
+          "column_name": "strCol",
+          "type_name": "STRING"
+        },
+        {
+          "column_name": "byteCol",
+          "type_name": "BYTES"
+        },
+        {
+          "column_name": "dateCol",
+          "type_name": "Date"
+        },
+        {
+          "column_name": "tsCol",
+          "type_name": "TIMESTAMP"
+        },
+        {
+          "column_name": "intCol",
+          "type_name": "INT64"
+        },
+        {
+          "column_name": "floatCol",
+          "type_name": "FLOAT"
+        }
+      ]
+    }
+  ]
+}
